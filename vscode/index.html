@@ -20,21 +20,80 @@
 <body class="main-bg">
     <aside class="menu white-bg">
         <nav>
-            <section class="main-content menu-content">
+            <div class="main-content menu-content">
                 <h1><a href="#">LOGO</a></h1>
                 <ul>
-                    <li><a href="#">intro</a></li>
-                    <li><a href="#">top 3</a></li>
-                    <li><a href="#">gallery</a></li>
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#explicação">Explicação</a></li>
+                    <li><a href="#grid-one">Perguntas</a></li>
                     <li><a href="#">work</a></li>
                     <li><a href="#">contact</a></li>    
                 </ul>
-            </section>
+            </div>
         </nav>
     </aside>
 
-    <section class="section white-bg"></section>
-    <section class="section"></section>
+    <div class="menu-spacing"></div> <!-- Espaço para não tampar título -->
+
+    <section id="inicio"class="main-bg section">
+        <div class="main-content intro-content">
+            <div class="intro-text-content">
+                <h2>
+                    Landing Page com CSS3, HTML5 e JS
+                </h2>
+                <p>
+                    Nesta página, você encontrará um projeto desenvolvido com as tecnologias essenciais para a web: HTML5, CSS3 e JavaScript. Contendo:<br>
+                    <br>
+                        <ul class="topico">
+                            <li>Estrutura semântica com HTML5 para organização do conteúdo.</li>
+                            <br>
+                            <li>Estilos modernos com CSS3, incluindo flexbox, grids e animações responsivas.</li>
+                            <br>
+                            <li>Interatividade com JavaScript para dinamismo e funcionalidades práticas.</li>
+                </p>
+            
+            </div>
+            <div class="intro-img">
+                <img src="assets/img/javascript-not-optimized.svg" alt="Desenho de um homem segurando o simbulo do CSS3, uma mulher com o simbulo do JavaScript e outra mulher com o simbulo do HTML5">
+            </div>
+        </div>
+    </section>
+
+    <section id="explicação" class="white-bg section">
+        <div class="main-content explicação-content">
+            <h2>O que são essas Tecnologias?</h2>
+
+            <p>O <strong>HTML5 é como o esqueleto da página,</strong> a estrutura básica que segura tudo no lugar. Ele define onde ficam os títulos, os textos, os botões e as imagens – assim como uma planta baixa mostra onde ficam as paredes e portas de uma casa. Sem o HTML, a página seria apenas um monte de informações soltas, sem organização.</p><br>
+
+            <p>Já o <strong>CSS3 entra como o design e o estilo,</strong> transformando essa estrutura simples em algo visualmente atraente. Ele cuida das cores, das fontes, dos espaçamentos e até de animações suaves, como um botão que muda de cor quando você passa o mouse por cima. É o CSS que garante que a página não só funcione, mas também seja agradável de usar, seja no computador ou no celular.</p><br>
+
+            <p>Por fim, o <strong>JavaScript (JS) é como a inteligência da página,</strong> responsável por tudo que acontece de forma dinâmica. Se o HTML é a estrutura e o CSS é a aparência, o JS é o que faz as coisas funcionarem – como um menu que abre e fecha, um formulário que verifica se você preencheu tudo corretamente ou um carrossel de imagens que rola automaticamente. Sem JavaScript, a página seria estática, como um cartaz digital que não responde a nada.</p>
+ 
+        </div>
+    </section>
+
+    <section id="grid-one" class="grid-one main-bg section">
+            <div class="main-content grid-one-content">
+                <h2 class="grid-main-heading">Perguntas Frequentes</h2>
+                <p class="grid-description">Ficou com dúvidas? Veja se essas perguntas esclarecem elas!</p><br>
+                <div class="grid">
+                    <article>
+                        <h3>Afinal, posso criar um site só com HTML?</h3>
+                        <p>Você pode criar um site apenas com HTML, mas ele será estático (como um documento digital). O CSS é essencial para o design profissional, e o JavaScript para interatividade.</p><br>
+                    </article>
+
+                    <article>
+                        <h3>Qual a diferença entre front-end e back-end?</h3>
+                        <p>HTML, CSS e JavaScript são a base do front-end (o que o usuário vê e interage). O back-end (como PHP, Python ou bancos de dados) lida com servidores e dados.</p>
+                    </article>
+
+                    <article>
+                        <h3>JavaScript é a mesma coisa que Java?</h3>
+                        <p>Não! JavaScript (JS) roda no navegador e é usado para interatividade em sites. Java é uma linguagem de programação complexa, usada em aplicativos desktop, Android e sistemas empresariais.</p>
+                    </article>
+                </div>
+            </div>
+    </section>
 
 </body>
 </html>
