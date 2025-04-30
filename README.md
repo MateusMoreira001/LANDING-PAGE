@@ -8,14 +8,14 @@ Aqui documentarei minha jornada desde os primeiros passos até a Landing Page fi
 - Evoluir o projeto de forma incremental.
 - Compartilhar meu processo de aprendizado público.
 
-## 🔧 Progresso Atual (Dia 1)
+## 🔧 Progresso Atual
 - ✅ Estrutura HTML inicial (header, seções básicas para teste).
 - ✅ Estilos CSS simples (fontes, cores, layout básico).
 - ✅ Configuração do repositório no GitHub.
 
 ## 🌟 Próximas Etapas
 - 🚧 Adicionar mais seções.
-- 🚧 Incrementar Menu.
+- 🚧 Incrementar Menu - OK✅
 - 🚧 Implementar responsividade (mobile-first).
 - 🚧 Incluir interações com JavaScript futuramente.
 - 🚧 Dentre outras coisas...
@@ -24,5 +24,3 @@ Aqui documentarei minha jornada desde os primeiros passos até a Landing Page fi
 Envie feedbacks ou sugestões [aqui](https://github.com/seu-usuario/seu-repositorio/issues)!
 
 ---
-
-*"Um projeto de cada vez, um commit por dia!"* ✨
